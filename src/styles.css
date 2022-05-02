@@ -95,4 +95,12 @@ p {
 
 .socials {
     padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
 }
+
+.social {
+    fill: white;
+    margin: 20px;
+}
+
