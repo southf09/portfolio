@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+section {
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.myself {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.myself-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myself-text {
+    margin-left: 40px;
+    margin-bottom: 250px;
+}
+
+.btn {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ef744b;
+}
+
+.btn:active {
+    background-color: darkgrey;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
