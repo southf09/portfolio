@@ -16,7 +16,6 @@ body {
 section {
     height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 .me {
@@ -108,17 +107,17 @@ p {
     margin: 20px;
 }
 
-.sub-section {
+.about-section {
     display: flex;
     justify-content: space-around;
-    padding: 80px;
+    padding: 60px;
 }
 
-.sub-section-alt {
+.project-section {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
 }
 
 .headshot {
@@ -134,8 +133,8 @@ p {
 
 .project-card {
     width: 200px;
-    height: 500px;
-    border: 1px solid black;
+    height: 200px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .project-container {
