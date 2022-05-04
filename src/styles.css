@@ -14,7 +14,7 @@ body {
   }
 
 section {
-    height: 500px;
+    height: 100vh;
     background-color: white;
 }
 
@@ -132,12 +132,36 @@ p {
 }
 
 .project-card {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     box-shadow: 5px 5px 5px grey;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-img {
+    height: 400px;
+    width: 400px;
+}
+
+.sub-text {
+    font-size: 13px;
+}
+
+hr {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
