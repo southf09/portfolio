@@ -165,3 +165,16 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-form {
+    color: white;
+}
+
+.contact-info {
+    color: white;
+}
