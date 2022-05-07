@@ -25,7 +25,7 @@
             <div class="me-text">
                 <h1>Frank South</h1>
                 <p>Aspiring Web Developer</p>
-                <div class="btn">About Me</div>
+                <div class="btn"><a href="#about-me">About Me</a></div>
             </div>
             <div href="" class="socials">
                 <div class="social">
@@ -90,7 +90,25 @@
             </div>
         </div>
     </section>
-    <footer id="contact"></footer>
+    <footer id="contact">
+    <div class="contact-container">
+        <div class="email-form">
+            <h2>Email Me!</h2>
+            <form action="https://formsubmit.co/frankstonesouth@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <br>
+            <input type="hidden" name="_next" value="https://franksouth.dev/pages/thankyou.html">
+            <input type="text" name="message" placeholder="Write your messaged here." required>
+            <br>
+            <button type="submit">Send</button>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Contact Me!</h2>
+        </div>
+    </div>
+    </footer>
 
     <script src="src/app.js"></script>
 </body>
