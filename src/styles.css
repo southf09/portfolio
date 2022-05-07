@@ -169,6 +169,7 @@ a {
 .contact-container {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .email-form {
