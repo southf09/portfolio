@@ -173,9 +173,19 @@ a {
 }
 
 .email-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
     color: white;
+    padding: 120px;
 }
 
 .contact-info {
     color: white;
+    padding: 120px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 250px;
 }
