@@ -1,20 +1,19 @@
 html {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Montserrat', sans-serif;
   }
   
-*, *:before, *:after {
+/* *, *:before, *:after {
     box-sizing: inherit;
-  }
+  } */
   
 body {
     margin: 0;
-    padding: 0;
     font-weight: normal;
   }
 
 section {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
 }
 
@@ -26,7 +25,7 @@ section {
 }
 
 footer {
-    height: 500px;
+    /* height: 500px; */
     background-color: black;
 }
 
@@ -98,8 +97,8 @@ p {
 
 .socials {
     padding-bottom: 200px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .social {
@@ -110,20 +109,21 @@ p {
 .about-section {
     display: flex;
     justify-content: space-around;
-    padding: 60px;
+    padding: 80px;
 }
 
 .project-section {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 60px;
+    padding: 80px;
 }
 
 .headshot {
     width: 300px;
     height: 300px;
     border-radius: 150px;
+    margin-left: 90px;
 }
 
 .headshot-container {
@@ -132,9 +132,12 @@ p {
 }
 
 .project-card {
-    width: 400px;
-    height: 400px;
-    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    /* width: 400px;
+    height: 350px;
+    box-shadow: 5px 5px 5px grey; */
+    margin: 10px;
 }
 
 .project-container {
@@ -142,9 +145,19 @@ p {
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+    
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
 .project-img {
-    height: 400px;
     width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .sub-text {
@@ -166,8 +179,14 @@ a {
     color: white;
 }
 
+footer {
+    margin-bottom: 0;
+    height: 400px;
+}
+
 .contact-container {
     display: flex;
+    height: 400px;
     justify-content: space-between;
     text-align: center;
 }
@@ -175,7 +194,6 @@ a {
 .email-form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
     color: white;
     padding: 120px;
 }
