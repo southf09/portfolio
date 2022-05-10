@@ -42,6 +42,10 @@ ul {
     font-size: 30px;
 }
 
+ul.show {
+    display: block;
+}
+
 li {
     text-decoration: none;
     font-weight: 200;
@@ -152,6 +156,10 @@ p {
         flex-wrap: wrap;
     }
 
+    /* .contact-container {
+        display: flex;
+        flex-direction: column;
+    } */
 }
 
 .project-img {
@@ -206,4 +214,38 @@ footer {
 input {
     margin-bottom: 5px;
     width: 250px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .burger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    ul {
+        display: none;
+        background-color: #67687a;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+    }
 }
