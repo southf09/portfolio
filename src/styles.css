@@ -27,6 +27,7 @@ section {
 footer {
     /* height: 500px; */
     background-color: black;
+    font-weight: 200;
 }
 
 nav {
