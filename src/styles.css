@@ -25,7 +25,7 @@ section {
 }
 
 footer {
-    /* height: 500px; */
+    /* height: 00px; */
     background-color: black;
     font-weight: 200;
 }
@@ -195,7 +195,7 @@ footer {
 
 .contact-container {
     display: flex;
-    height: 400px;
+    height: 300px;
     justify-content: space-between;
     text-align: center;
 }
