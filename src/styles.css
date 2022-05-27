@@ -18,7 +18,7 @@ section {
 }
 
 .me {
-    background-color: #1c1d25;
+    background-color: #023047;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -82,11 +82,11 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #fb8500;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 12px;
     margin-top: 20px;
     cursor: pointer;
 }
