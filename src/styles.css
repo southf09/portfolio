@@ -52,6 +52,11 @@ li {
     font-weight: 200;
 }
 
+li a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
 h1 {
     font-size: 90px;
     margin: 0;
@@ -66,6 +71,10 @@ p {
     font-size: 30px;
 }
 
+.logo {
+    margin: 10px 0 0 20px;
+    font-size: 45px;
+}
 .me-container {
     display: flex;
     height: 100%;
