@@ -145,6 +145,14 @@ p {
     align-items: center;
 }
 
+.iconify {
+    height: 30px;
+    width: 30px;
+}
+
+#express {
+    color: darkblue;
+}
 .project-card {
     display: flex;
     flex-direction: column;
