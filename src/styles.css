@@ -134,10 +134,10 @@ p {
 }
 
 .headshot {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    margin-right: 90px;
+    width: 350px;
+    height: 350px;
+    border-radius: 170px;
+    margin-left: 90px;
 }
 
 .headshot-container {
@@ -180,10 +180,17 @@ p {
         /* flex-direction: row-reverse; */
     }
 
+    .headshot-container {
+        order: 1;
+    }
+    .me-info {
+        order: 2;
+    }
+    
     .headshot {
         margin: 0;
     }
-    
+
     .contact-container {
         display: flex;
         flex-wrap: wrap;
