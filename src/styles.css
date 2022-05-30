@@ -126,6 +126,23 @@ p {
     padding: 80px;
 }
 
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    /* width: 1000px; */
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin-right: 20px;
+}
+
 .project-section {
     display: flex;
     flex-direction: column;
@@ -186,7 +203,7 @@ p {
     .me-info {
         order: 2;
     }
-    
+
     .headshot {
         margin: 0;
     }
@@ -267,12 +284,14 @@ input {
         color: white;
         font-size: 30px;
         margin: 20px;
+        align-self: flex-end;
     }
 
     ul {
         display: none;
-        background-color: #67687a;
+        background-color: #023047;
         margin: 0px;
+        /* position: absolute; */
     }
 
     nav {
