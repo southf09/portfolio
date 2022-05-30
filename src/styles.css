@@ -137,7 +137,7 @@ p {
     width: 300px;
     height: 300px;
     border-radius: 150px;
-    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .headshot-container {
@@ -174,10 +174,20 @@ p {
         flex-wrap: wrap;
     }
 
-    /* .contact-container {
+    .about-section {
         display: flex;
-        flex-direction: column;
-    } */
+        flex-wrap: wrap;
+        /* flex-direction: row-reverse; */
+    }
+
+    .headshot {
+        margin: 0;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-img {
