@@ -25,9 +25,11 @@ section {
 }
 
 footer {
-    /* height: 00px; */
     background-color: #023047;
+    color: white;
+    text-align: center;
     font-weight: 200;
+    padding: 80px;
 }
 
 nav {
@@ -123,8 +125,21 @@ p {
 .about-section {
     display: flex;
     /* height: 100vh; */
+    /* background-color: #e5e5e5; */
     justify-content: space-around;
     padding: 80px;
+}
+
+.about-section h2 {
+    font-weight: 400;
+    text-shadow: 2px 2px 3px #808080;
+    font-size: 60px;
+    color: #023047;
+}
+
+.first-letter {
+    font-size: 80px;
+    font-weight: 600;
 }
 
 .skills-container {
@@ -134,7 +149,7 @@ p {
 
 #skills{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     /* width: 1000px; */
     font-size: 40px;
     margin-bottom: 10px;
@@ -154,9 +169,17 @@ hr {
 .project-section {
     display: flex;
     /* height: 100vh; */
+    background-color: #e5e5e5;
     flex-direction: column;
     text-align: center;
     padding: 80px;
+}
+
+.project-section h2 {
+    font-weight: 400;
+    text-shadow: 2px 2px 3px #808080;
+    font-size: 60px;
+    color: #023047;
 }
 
 .headshot {
@@ -220,10 +243,11 @@ hr {
     #skills {
         margin: 0;
     }
-    .contact-container {
+    /* .contact-container {
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
+
 }
 
 .project-img {
@@ -251,33 +275,28 @@ a {
     color: white;
 }
 
-footer {
-    margin-bottom: 0;
-    height: 400px;
-}
-
-.contact-container {
+/* .contact-container {
     display: flex;
     height: 300px;
     justify-content: space-between;
     text-align: center;
-}
+} */
 
-.email-form {
+/* .email-form {
     display: flex;
     flex-direction: column;
     color: #fff;;
     padding: 120px;
-} 
+}  */
 
-.contact-info {
+/* .contact-info {
     color: white;
-    padding: 120px;
-}
+    /* padding: 120px; */
+/* } */ 
 
 input {
     margin-bottom: 5px;
-    width: 250px;
+    /* width: 250px; */
 }
 
 .burger {
