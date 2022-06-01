@@ -132,7 +132,7 @@ p {
 
 .about-section h2 {
     font-weight: 400;
-    text-shadow: 2px 2px 3px #808080;
+    /* text-shadow: 2px 2px 3px #808080; */
     font-size: 60px;
     color: #023047;
 }
