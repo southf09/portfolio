@@ -125,7 +125,6 @@ p {
 .about-section {
     display: flex;
     /* height: 100vh; */
-    /* background-color: #e5e5e5; */
     justify-content: space-around;
     padding: 80px;
 }
@@ -226,7 +225,6 @@ hr {
     .about-section {
         display: flex;
         flex-wrap: wrap;
-        /* flex-direction: row-reverse; */
     }
 
     .headshot-container {
