@@ -245,7 +245,11 @@ hr {
         display: flex;
         flex-wrap: wrap;
     } */
-
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .project-img {
