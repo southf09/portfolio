@@ -322,6 +322,15 @@ p {
     /* box-shadow: 5px 5px 5px gray; */
 }
 
+.project-header {
+    font-size: 1.8rem;
+}
+
+.project-link {
+    font-size: 1rem;
+    color: black;
+}
+
 .sub-text {
     font-size: 1.6rem;
     text-align: center;
@@ -339,6 +348,10 @@ p {
 
 @media only screen and (min-width: 992px) {
     .nav-list {
+        display: flex;
+    }
+
+    ul.show {
         display: flex;
     }
 }
