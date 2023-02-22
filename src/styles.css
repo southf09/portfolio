@@ -1,0 +1,509 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+  
+body {
+    margin: 0;
+    font-weight: normal;
+    min-width: 300px;
+}
+
+section {
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background-color: white;
+}
+
+footer {
+    /* background-color: #023047; */
+    background-color: #19535f;
+    color: white;
+    text-align: center;
+    /* font-weight: 200; */
+    padding: 80px;
+}
+
+.home-header {
+    background-color: #19535f;
+    /* background-color: #1d4e89; */
+    /* background-image: url('./src/images/mountains.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 75% 5%;  */
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+    /* padding: 0 80px; */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    display: none;
+}
+
+.burger:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+ul.show {
+    display: block;
+}
+
+.nav-item > a {
+    /* text-decoration: none; */
+    font-weight: 200;
+    color: white;
+}
+
+.nav-item > a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+
+.logo {
+    margin: 10px 0 0 20px;
+    font-size: 45px;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    align-items: center;
+}
+
+.home-name {
+    margin-left: 40px;
+}
+
+.btn {
+    width: 200px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #fb8500;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ef744b;
+}
+
+.btn:active {
+    background-color: darkgrey;
+    color: #808080;
+}
+
+.social > a {
+    fill: white;
+}
+
+.social {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.skills-section {
+    /* font-size: 16px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 80px; */
+}
+
+.about-section {
+    height: 100vh;
+    /* padding: 0 80px; */
+}
+
+.about-section > nav {
+    background-color: #19535f;
+}
+
+.about-main {
+    padding: 0 80px 30px 80px;
+}
+
+.me-container {
+    display: flex;
+
+}
+
+.me-item > p {
+    font-size: 1.6rem;
+}
+
+.skills-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 80px 0px 80px;
+}
+
+p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.about-header {
+    position: relative;
+    font-weight: 300;
+    /* text-shadow: 2px 2px 3px #808080; */
+    font-size: 10rem;
+    color: #023047;
+    margin: 10px 0;
+    padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(45deg, #19535f, #5bc8af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+}
+
+.about-header::before {
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: 48px;
+  width: 200px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background-color: rgba(91, 200, 175, 0.5);
+  z-index: -1;
+}
+
+.section-title {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.headshot {
+    width: 350px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-left: 60px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    /* border-radius: 10px; */
+    /* text-align: center; */
+}
+
+.skill-icons {
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.skill-icon {
+    font-size: 40px;
+}
+
+.skill-card {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 1px solid gray; */
+    width: 25%;
+}
+
+.skill-card > h4 {
+    font-size: 2rem;
+    /* padding-bottom: 0; */
+    margin-bottom: 5px;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-description {
+    font-size: 1.4rem;
+}
+
+.skill-name {
+    margin-top: 5rem;
+}
+
+.color-one {
+    background-color: #19535f;
+}
+
+.color-two {
+    background-color: #0b7a75;
+}
+
+.color-three {
+    background-color: #009f93;
+}
+
+.color-four {
+    background-color: #5bc8af;
+}
+
+.section-divider {
+    width: 80%;
+    height: 100px;
+    background-color: #fb8500;
+    transform: skew(-12deg);
+    margin: 80px auto 50px auto;
+    opacity: 0.8;
+}
+
+.project-section {
+    /* font-size: 16px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 80px 120px 80px;
+    /* margin: 80px; */
+    /* background-color: #19535f; */
+    border-radius: 15px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #19535f; */
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #19535f; */
+    /* border-radius: 10px; */
+}
+
+.project-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: 1px solid #19535f; */
+    /* box-shadow: 5px 5px 5px gray; */
+}
+
+.sub-text {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.card-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-hr {
+    width: 150px;
+}
+
+/* Mobile Styles */
+
+.about-mobile {
+    display: none;
+    padding: 30px;
+}
+
+.me-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.headshot-mobile {
+    justify-content: center;
+}
+
+.intro-mobile > p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1800px) {
+    .about-section {
+        /* height: 150vh; */
+    }
+}
+
+@media only screen and (max-width: 1400px){
+
+    .about-section {
+        /* height: 150vh; */
+    }
+    
+    .me-container {
+        /* flex-wrap: wrap; */
+    }
+
+    /* .me-intro > p {
+        font-size: 20px;
+    } */
+
+    .project-section {
+        /* height: 150vh; */
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        width: 35%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1300px){
+
+    .about-section {
+        /* height: 205vh; */
+    }
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-card {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .burger {
+        display: block;
+        /* position: fixed; */
+        cursor: pointer;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    .nav-list {
+        display: none;
+        width: 100%;
+        /* height: 100%; */
+        text-align: center;
+        background-color: #19535f;
+        position: absolute;
+        top: 50px;
+        margin: 0px;
+        /* position: absolute; */
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .project-section {
+        /* height: 220vh; */
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .skill-description {
+        display: none;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+    /* .me-container {
+        justify-content: center;
+    } */
+
+    .headshot {
+        margin-left: 0;
+    }
+
+    /* .me-intro {
+        display: none;
+    } */
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+
+@media only screen and (max-width: 1000px){
+
+    .burger {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+}
