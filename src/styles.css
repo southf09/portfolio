@@ -337,26 +337,6 @@ p {
     width: 150px;
 }
 
-/* Mobile Styles */
-
-.about-mobile {
-    display: none;
-    padding: 30px;
-}
-
-.me-mobile {
-    display: flex;
-    flex-direction: column;
-}
-
-.headshot-mobile {
-    justify-content: center;
-}
-
-.intro-mobile > p {
-    font-size: 20px;
-}
-
 @media only screen and (max-width: 1800px) {
     .about-section {
         /* height: 150vh; */
