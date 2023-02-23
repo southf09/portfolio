@@ -26,7 +26,7 @@ footer {
     color: white;
     text-align: center;
     /* font-weight: 200; */
-    padding: 80px;
+    padding: 40px;
 }
 
 .home-header {
@@ -279,9 +279,13 @@ p {
     background-color: #5bc8af;
 }
 
+.dividers {
+    display: flex;
+}
+
 .section-divider {
-    width: 80%;
-    height: 100px;
+    width: 20%;
+    height: 50px;
     background-color: #fb8500;
     transform: skew(-12deg);
     margin: 80px auto 50px auto;
@@ -344,6 +348,13 @@ p {
 
 .card-hr {
     width: 150px;
+}
+
+.contact-head {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 10px;
 }
 
 @media only screen and (min-width: 992px) {
