@@ -17,7 +17,7 @@
     <title>Frank South - Portfolio</title>
 </head>
 <body>
-    <section class="home-header">
+    <section class="home-section">
         <nav class="nav-bar">
             <div class="logo">fs.dev</div>
             <!-- <img src="/src/image/myimage" alt="frank south's logo"> -->
@@ -35,7 +35,7 @@
             <div class="home-name">
                 <h1>Frank South</h1>
                 <p>Web Developer</p>
-                <div class="btn"><a href="src/about.html">About Me</a></div>
+                <div class="btn">About Me</div>
             </div>
             <div href="" class="socials">
                 <div class="social">
@@ -130,12 +130,12 @@
                     </p>
                 </div>              
             </div>
-            <div class="dividers">
+            <!-- <div class="dividers">
                 <div class="section-divider"></div>
                 <div class="section-divider"></div>
                 <div class="section-divider"></div>
                 <div class="section-divider"></div>
-            </div>
+            </div> -->
             
         </div>
     </section>
@@ -191,7 +191,62 @@
             </div>
         </div>
     </section>
-    <footer>
+
+    <section class="about-section hide"> 
+        <nav class="nav-bar">
+            <div class="logo" id="about-logo">fs.dev</div>
+            <!-- <img src="/src/image/myimage" alt="frank south's logo"> -->
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about-me">About Me</a></li>
+                <li class="nav-item"><a href="#projects">Projects</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="burger" id="burger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    
+        <div class="about-main">
+        <div class="skill-header">
+            <h3 class="about-header">
+                Who Am I?
+            </h3>
+        </div>
+        <div class="me-container">
+            <div class="me-item">
+                <h3>Who Am I?</h3>
+                <p>Hello. I am Frank South, a programmer with a focus in Web Development. I am a driven and self-motivated individual that is currently looking for a job as a Junior Developer. Please take a look around and view my projects. I hope that you enjoy my website as much as I enjoyed making it!</p>    
+            </div>
+    
+            <div class="me-item">
+                <h3>Who Am I?</h3>
+                <p>Hello. I am Frank South, a programmer with a focus in Web Development. I am a driven and self-motivated individual that is currently looking for a job as a Junior Developer. Please take a look around and view my projects. I hope that you enjoy my website as much as I enjoyed making it! Hello. I am Frank South, a programmer with a focus in Web Development. I am a driven and self-motivated individual that is currently looking for a job as a Junior Developer. Please take a look around and view my projects. I hope that you enjoy my website as much as I enjoyed making it!</p>    
+            </div>
+    
+            <div class="me-item">
+                <h3>Who Am I?</h3>
+                <p>Hello. I am Frank South, a programmer with a focus in Web Development. I am a driven and self-motivated individual that is currently looking for a job as a Junior Developer. Please take a look around and view my projects. I hope that you enjoy my website as much as I enjoyed making it!</p>    
+            </div>
+            <div class="headshot-container">
+                <img class="headshot" src="src/images/me-headshot.jpg" alt="Frank South's headshot">
+            </div>
+        </div>
+        </div>
+    
+        <footer>
+            <h3 class="contact-head">
+                Contact Me
+            </h3>
+            <form action="https://formsubmit.co/frankstonesouth@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="your message here" required>
+                <input type="email" name="email" placeholder="e-mail address" required>
+                <button type="submit">Send</button>
+           </form> 
+        </footer>
+    </section>
+
+
+    <footer class="footer-section">
         <h3 class="contact-head">
             Contact Me
         </h3>
