@@ -14,6 +14,14 @@ body {
     min-width: 300px;
 }
 
+/* ::-webkit-scrollbar {
+    background: #19535f;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(234, 240, 239);
+} */
+
 section {
     /* height: 100vh; */
     /* width: 100vw; */
@@ -27,10 +35,12 @@ footer {
     text-align: center;
     /* font-weight: 200; */
     padding: 40px;
+    /* width: 100%; */
 }
 
-.home-header {
+.home-section {
     background-color: #19535f;
+    /* display: none; */
     /* background-color: #1d4e89; */
     /* background-image: url('./src/images/mountains.png'); */
     /* background-repeat: no-repeat; */
@@ -85,6 +95,7 @@ ul.show {
 .logo {
     margin: 10px 0 0 20px;
     font-size: 45px;
+    color: white;
 }
 
 .home-container {
@@ -142,7 +153,10 @@ h1 {
 }
 
 .about-section {
-    height: 100vh;
+    height: 101vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /* padding: 0 80px; */
 }
 
@@ -156,7 +170,12 @@ h1 {
 
 .me-container {
     display: flex;
+    justify-content: space-around;
 
+}
+
+.me-item {
+    flex-basis: 20%;
 }
 
 .me-item > p {
@@ -167,7 +186,8 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 40px 80px 0px 80px;
+    padding: 40px 80px 40px 80px;
+    margin-bottom: 40px;
 }
 
 p {
@@ -241,7 +261,12 @@ p {
     padding: 20px;
     border-radius: 10px;
     /* border: 1px solid gray; */
-    width: 25%;
+    width: 24%;
+    transition: filter 1s ease;
+}
+
+.skill-card:hover {
+    filter: blur(5px);
 }
 
 .skill-card > h4 {
@@ -298,6 +323,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     padding: 0px 80px 120px 80px;
+    background-color: rgb(234, 240, 239);
     /* margin: 80px; */
     /* background-color: #19535f; */
     border-radius: 15px;
@@ -355,6 +381,10 @@ p {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     margin: 10px;
+}
+
+.hide {
+    display: none;
 }
 
 @media only screen and (min-width: 992px) {
