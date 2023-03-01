@@ -3,7 +3,7 @@
 const burgerBtn = document.getElementById('burger');
 const navList = document.querySelector('.nav-list');
 
-//Selectors for sections and About Me button
+//Selectors for sections and About Me button, need to be consolidated into a querySelectorAll
 const aboutBtn = document.querySelector('.btn');
 const skillSection = document.querySelector('.skills-section');
 const homeSection = document.querySelector('.home-section');
