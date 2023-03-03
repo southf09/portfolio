@@ -262,11 +262,13 @@ p {
     border-radius: 10px;
     /* border: 1px solid gray; */
     width: 24%;
-    transition: filter 1s ease;
+    transition: transform 1s ease;
 }
 
 .skill-card:hover {
-    filter: blur(5px);
+    /* filter: hue-rotate(50deg); */
+    transform: scale(1.2);
+    /* filter: drop-shadow(3px 3px 3px black); */
 }
 
 .skill-card > h4 {
