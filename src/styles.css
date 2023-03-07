@@ -416,7 +416,7 @@ p {
     }
     
     .me-container {
-        /* flex-wrap: wrap; */
+        
     }
 
     .project-section {
@@ -484,6 +484,11 @@ p {
 
     .logo {
         display: none;
+    }
+
+    .me-container {
+        display: flex;
+        flex-direction: column;
     }
 }
 
