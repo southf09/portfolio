@@ -405,7 +405,7 @@ p {
 
 @media only screen and (max-width: 1800px) {
     .about-section {
-        /* height: 150vh; */
+       
     }
 }
 
@@ -418,10 +418,6 @@ p {
     .me-container {
         /* flex-wrap: wrap; */
     }
-
-    /* .me-intro > p {
-        font-size: 20px;
-    } */
 
     .project-section {
         /* height: 150vh; */
@@ -520,9 +516,6 @@ p {
         width: 100%;
     }
 
-    /* .me-container {
-        justify-content: center;
-    } */
 
     .headshot {
         margin-left: 0;
