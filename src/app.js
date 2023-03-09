@@ -12,6 +12,7 @@ const aboutSection = document.querySelector('.about-section');
 const footerSection = document.querySelector('.footer-section');
 
 const aboutLogo = document.querySelector('#about-logo');
+const homeLink = document.querySelector('#home');
 
 //Burger open/close
 function toggleBtn() {
@@ -30,6 +31,7 @@ function hideSections() {
 
 aboutBtn.addEventListener('click', hideSections);
 aboutLogo.addEventListener('click', hideSections);
+homeLink.addEventListener('click', hideSections);
 
 const skillCards = document.querySelectorAll('.skill-card');
 
