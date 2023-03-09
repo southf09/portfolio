@@ -349,9 +349,12 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    margin: 5px;
+    flex-basis: 25%;
     /* background-color: #808080; */
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 15px;
     box-shadow: 5px 10px #000000:
     /* background-color: #19535f; */
     /* border-radius: 10px; */
