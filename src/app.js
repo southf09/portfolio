@@ -1,26 +1,29 @@
 //Selectors for burger menu and nav list 
-
 const burgerBtn = document.getElementById('burger');
 const navList = document.querySelector('.nav-list');
 
-//Selectors for sections and About Me button, need to be consolidated into a querySelectorAll
-const aboutBtn = document.querySelector('.btn');
-const skillSection = document.querySelector('.skills-section');
-const homeSection = document.querySelector('.home-section');
-const projectSection = document.querySelector('.project-section');
-const aboutSection = document.querySelector('.about-section');
-const footerSection = document.querySelector('.footer-section');
-
-const aboutLogo = document.querySelector('#about-logo');
-const homeLink = document.querySelector('#home');
-
-//Burger open/close
+//Opens and closes the burger menu, when in mobile view
 function toggleBtn() {
     navList.classList.toggle('show');
 }
 
 burgerBtn.addEventListener('click', toggleBtn)
 
+//Section selectors
+const aboutBtn = document.querySelector('.btn');
+const skillSection = document.querySelector('.skills-section');
+const homeSection = document.querySelector('.home-section');
+const projectSection = document.querySelector('.project-section');
+const aboutSection = document.querySelector('.about-section');
+const footerSection = document.querySelector('.footer-section');
+const formSection = document.querySelector('.form-section');
+
+//Selectors to navigate back to the home page
+const aboutLogo = document.querySelector('#about-logo');
+const homeLink = document.querySelector('#home');
+
+
+//Toggles the 'hide' class on the sections
 function hideSections() {
     skillSection.classList.toggle('hide');
     homeSection.classList.toggle('hide');
@@ -29,15 +32,30 @@ function hideSections() {
     footerSection.classList.toggle('hide');
 }
 
+function openForm() {
+    skillSection.classList.toggle('hide');
+    homeSection.classList.toggle('hide');
+    projectSection.classList.toggle('hide');
+    footerSection.classList.toggle('hide');
+    formSection.classList.toggle('hide');
+}
+
 aboutBtn.addEventListener('click', hideSections);
 aboutLogo.addEventListener('click', hideSections);
 homeLink.addEventListener('click', hideSections);
 
+const contactBtn = document.querySelector('.contact-btn');
+
+contactBtn.addEventListener('click', openForm);
+
+
+//Adds blur, on a mouseover, to skill cards
 const skillCards = document.querySelectorAll('.skill-card');
-
-
 
 function blurCard() {
     skillCards.classList.add('blur');
 }
+
 skillCards.addEventListener('mouseover', blurCard);
+
+

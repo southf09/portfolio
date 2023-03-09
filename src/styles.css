@@ -399,12 +399,31 @@ p {
     margin: 10px;
 }
 
+.contact-btn {
+    cursor: pointer;
+}
+
 .hide {
     display: none;
 }
 
 #about-logo {
     cursor: pointer;
+}
+
+.form-section {
+    height: 100vh;
+    color: black;
+}
+
+.form-message {
+    width:200px;
+    height: 200px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (min-width: 992px) {
@@ -466,6 +485,13 @@ p {
 
 }
 
+@media only screen and (max-width: 1050px){
+    .project-img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .burger {
         display: block;
@@ -503,6 +529,10 @@ p {
     .me-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .projects-header {
+        font-size: 8rem;
     }
 }
 
