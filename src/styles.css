@@ -153,10 +153,10 @@ h1 {
 }
 
 .about-section {
-    height: 101vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* padding: 0 80px; */
 }
 
@@ -412,16 +412,56 @@ p {
 }
 
 .form-section {
-    height: 100vh;
-    color: black;
+    height: 85vh;
+    background-color: #19535f;
+    padding-top: 60px;
+}
+
+.email-form {
+    height: 80%;
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.email-form > input {
+    width: 300px;
+    margin: 5px;
+}
+
+.email-form > button {
+    width: 300px;
+    margin: 5px;
+}
+
+.email-form > div {
+    width: 300px;
+}
+
+.email-form > div {
+    color: white;
+    text-align: center;
+}
+
+.my-email {
+    font-size: 2rem;
 }
 
 .form-message {
-    width:200px;
+    width: 200px;
     height: 200px;
 }
 
-.footer-section {
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about {
     display: flex;
     justify-content: space-between;
 }
