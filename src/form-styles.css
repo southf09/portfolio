@@ -13,3 +13,7 @@ body {
     font-weight: normal;
     min-width: 300px;
 }
+
+.form-section {
+    height: 100vh;
+}

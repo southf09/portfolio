@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="form-styles.css">
     <link rel="icon" href="favicon.ico?v=2">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,18 @@
     <title>Frank South - Contact Me</title>
 </head>
 <body>
-    
+    <section class="form-section">
+        
+        <form class="email-form" action="https://formsubmit.co/frankstonesouth@gmail.com" method="POST">
+            <input type="text" class="form-message" name="name" placeholder="your message here" required>
+            <input type="email" name="email" placeholder="e-mail address" required>
+            <button type="submit">Send</button>
+            <div>
+                <h3>Send me a message, leave your contact information, and I will get back to you as soon as possible!</h3>
+                <h3 class="my-email">frank@franksouth.dev</h3>
+            </div>
+            
+       </form> 
+    </section>
 </body>
 </html>

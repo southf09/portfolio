@@ -32,21 +32,21 @@ function hideSections() {
     footerSection.classList.toggle('hide');
 }
 
-function openForm() {
-    skillSection.classList.toggle('hide');
-    homeSection.classList.toggle('hide');
-    projectSection.classList.toggle('hide');
-    // footerSection.classList.toggle('hide');
-    formSection.classList.toggle('hide');
-}
+// function openForm() {
+//     skillSection.classList.toggle('hide');
+//     homeSection.classList.toggle('hide');
+//     projectSection.classList.toggle('hide');
+//     // footerSection.classList.toggle('hide');
+//     formSection.classList.toggle('hide');
+// }
 
 aboutBtn.addEventListener('click', hideSections);
 aboutLogo.addEventListener('click', hideSections);
 homeLink.addEventListener('click', hideSections);
 
-const contactBtn = document.querySelector('.contact-btn');
+// const contactBtn = document.querySelector('.contact-btn');
 
-contactBtn.addEventListener('click', openForm);
+// contactBtn.addEventListener('click', openForm);
 
 
 //Adds blur, on a mouseover, to skill cards
