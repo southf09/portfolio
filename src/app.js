@@ -16,7 +16,7 @@ const homeSection = document.querySelector('.home-section');
 const projectSection = document.querySelector('.project-section');
 const aboutSection = document.querySelector('.about-section');
 const footerSection = document.querySelectorAll('.footer-section');
-const formSection = document.querySelector('.form-section');
+// const formSection = document.querySelector('.form-section');
 
 //Selectors to navigate back to the home page
 const aboutLogo = document.querySelector('#about-logo');
@@ -29,16 +29,8 @@ function hideSections() {
     homeSection.classList.toggle('hide');
     projectSection.classList.toggle('hide');
     aboutSection.classList.toggle('hide');
-    footerSection.classList.toggle('hide');
+    // footerSection.classList.toggle('hide');
 }
-
-// function openForm() {
-//     skillSection.classList.toggle('hide');
-//     homeSection.classList.toggle('hide');
-//     projectSection.classList.toggle('hide');
-//     // footerSection.classList.toggle('hide');
-//     formSection.classList.toggle('hide');
-// }
 
 aboutBtn.addEventListener('click', hideSections);
 aboutLogo.addEventListener('click', hideSections);
@@ -47,15 +39,5 @@ homeLink.addEventListener('click', hideSections);
 // const contactBtn = document.querySelector('.contact-btn');
 
 // contactBtn.addEventListener('click', openForm);
-
-
-//Adds blur, on a mouseover, to skill cards
-// const skillCards = document.querySelectorAll('.skill-card');
-
-// function blurCard() {
-//     skillCards.classList.add('blur');
-// }
-
-// skillCards.addEventListener('mouseover', blurCard);
 
 

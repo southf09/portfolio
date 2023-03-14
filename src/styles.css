@@ -153,7 +153,7 @@ h1 {
 }
 
 .about-section {
-    height: 85vh;
+    /* height: 85vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -460,8 +460,10 @@ p {
 }
 
 .footer-main {
+    /* height: 150px; */
     display: flex;
     justify-content: space-between;
+    bottom: 0;
 }
 
 .footer-about {
