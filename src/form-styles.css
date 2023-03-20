@@ -35,6 +35,10 @@ body {
     cursor: pointer;
 }
 
+.form-link:hover {
+    background-color: #ef744b;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -54,8 +58,13 @@ a {
     border-radius: 15px;
 }
 
+.form-submit {
+    cursor: pointer;
+    width: 250px;
+}
+
 .email-form > input {
-    width: 300px;
+    width: 250px;
     margin: 5px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -64,7 +73,8 @@ a {
 }
 
 .email-form > div {
-    width: 300px;
+    margin-top: 10px;
+    width: 250px;
 }
 
 .email-form > div {
@@ -77,6 +87,6 @@ a {
 }
 
 .form-message {
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
